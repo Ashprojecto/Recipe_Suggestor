@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+}
+
+.items, .mealDetails{
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.item-title{
+  margin-top: 5px;
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-align: center;
+}
+.msg{
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-align: center;
+}
+
+.recipeDetails h2{
+  text-align: center;
+}
+
+.mealImg{
+  display: flex;
+  margin-left: 36rem;
+  width: 20rem;
+  height: 20rem;
+}
+.mealDetails{
+  padding: 10px 10px 10px 10px;
+}
+.item-space{
+  justify-content: space-between;
+}
+.footer{
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 10px;
+}
