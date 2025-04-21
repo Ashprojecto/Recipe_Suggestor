@@ -52,7 +52,7 @@ const[mealData,setMealData]=useState("")
             {mealData.strIngredient3 && <li>{mealData.strIngredient3}</li>}
             {mealData.strIngredient4 && <li>{mealData.strIngredient4}</li>}
             {mealData.strIngredient5 && <li>{mealData.strIngredient5}</li>}
-            {mealData.strIngredient6 && <li>{mealData.strIngredient6}</li>}
+            {mealData.strIngredient6 && <li>{mealData.strIngredient6}</li>} 
             {mealData.strIngredient7 && <li>{mealData.strIngredient7}</li>}
             {mealData.strIngredient8 && <li>{mealData.strIngredient8}</li>}
             {mealData.strIngredient9 && <li>{mealData.strIngredient9}</li>}

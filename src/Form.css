@@ -1,12 +1,16 @@
 .Form{
     margin-top: 5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    padding: 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 .Form input{
-    width: 30rem;
+    width: 100%;
+    max-width: 30rem;
     height: 3rem;
     text-align: center;
     border-radius: 10rem;
@@ -17,11 +21,22 @@
 }
 .Form .btn{
     border-radius: 20rem;
-    margin-left: 1.5rem;
+    width: 90%;
+    max-width: 30rem;
 } 
 
 .Form input:focus{
     outline:none;
     box-shadow:0 0 40px rgba(0, 150, 255, 0.8);;
     border-color:#0096ff;
+}
+
+@media (min-width: 768px){
+    .Form{
+        flex-direction: row;
+    }
+    .Form .btn{
+        width: auto;
+        margin-left: 1.5rem;
+    }
 }
